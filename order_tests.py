@@ -12,7 +12,5 @@ def positive_assert(track):
      print(request)
      assert request.status_code == 200
 
-#Тест 1
-#При поиске по номеру статус код = 200
 def test_status_code_get_order():
     positive_assert(sender_stand_request.post_new_order(data.post_order_body, data.headers).json()["track"])
