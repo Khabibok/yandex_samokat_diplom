@@ -11,9 +11,7 @@ post_order_body = {
         "rentTime": 4,
         "deliveryDate": "2024-03-21",
         "comment": "как можно быстрее",
-        "color": [
-            "BLACK"
-        ]
+        "color": ["BLACK"]
     }
 
 
